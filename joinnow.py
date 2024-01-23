@@ -29,7 +29,7 @@ def main():
     environment = st.selectbox("Select Environment:", ('dev', 'stage', 'prod'))
 
     # Button to convert URL
-    if st.button("Convert URL"):
+    if st.button("Join Session"):
         if admin_url:
             user_url = convert_admin_to_user_url(admin_url, environment)
             st.success(f"Join Session: {user_url}")
