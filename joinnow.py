@@ -20,7 +20,7 @@ def convert_admin_to_user_url(admin_url, environment):
 
 # Streamlit UI
 def main():
-    st.title("URL Converter for EdTech Platform")
+    st.title("Join Session - Varsity Live")
 
     # User input for URL
     admin_url = st.text_input("Enter the Admin URL:", "")
@@ -32,7 +32,7 @@ def main():
     if st.button("Convert URL"):
         if admin_url:
             user_url = convert_admin_to_user_url(admin_url, environment)
-            st.success(f"Converted User URL: {user_url}")
+            st.success(f"Join Session: {user_url}")
         else:
             st.error("Please enter a valid Admin URL.")
 
