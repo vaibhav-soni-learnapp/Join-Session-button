@@ -56,7 +56,12 @@ def main():
     admin_url = st.text_input("Enter the Admin URL:", "")
 
     # Dropdown for environment selection
-    environment = st.selectbox("Select Environment:", ('dev', 'stage', 'prod'))
+    environment = st.selectbox("Select Environment:", ('dev', 'stage', 'prod'),
+   index=None,
+   placeholder="Select the development environment ...",
+    )
+    st.write('You selected:', option)
+
 
     # Button to convert URL
     if st.button("Join Session"):
