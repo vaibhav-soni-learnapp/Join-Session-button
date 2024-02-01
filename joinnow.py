@@ -1,8 +1,7 @@
 import streamlit as st
 
-def convert_admin_to_user_url(admin_url, environment):
+
     
-import streamlit as st
 
 # Set the page title and icon
 st.set_page_config(page_title="Admin Instructions", page_icon=":memo:")
@@ -30,7 +29,7 @@ st.write("Please follow the instructions in the sidebar to update the program.")
 
 
 
-
+def convert_admin_to_user_url(admin_url, environment):
 
 # Define base URLs for each environment
     user_base_urls = {
