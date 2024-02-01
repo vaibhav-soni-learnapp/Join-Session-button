@@ -18,10 +18,10 @@ st.sidebar.write("""
 
 # Assuming the GIF is named "update_program.gif" and is located in the same directory as your Streamlit app
 # If your GIF is hosted online, replace the file path with the URL
-gif_path = "update_program.gif"
+#gif_path = "update_program.gif"
 
 # Display the GIF in the sidebar
-st.sidebar.image(gif_path, caption="Follow these steps", use_column_width=True)
+#st.sidebar.image(gif_path, caption="Follow these steps", use_column_width=True)
 
 # Main page content (optional)
 #st.title("Admin Portal Instructions")
