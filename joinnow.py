@@ -60,7 +60,7 @@ def main():
    index=None,
    placeholder="Select the development environment ...",
     )
-    st.write('You selected:', option)
+    st.write('You selected:', environment)
 
 
     # Button to convert URL
