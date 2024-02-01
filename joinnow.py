@@ -5,7 +5,7 @@ def convert_admin_to_user_url(admin_url, environment):
     user_base_urls = {
         'dev': "https://varsity-live.dev.varsitylive.in",
         'stage': "https://varsity-live.stage.varsitylive.in",
-        'prod': "varsitylive.zerodha.com"
+        'prod': "https://varsitylive.zerodha.com"
     }
 
     # Extracting IDs
